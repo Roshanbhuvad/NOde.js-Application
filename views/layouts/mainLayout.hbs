@@ -1,0 +1,26 @@
+<!-- inside this main layout we will have the HTML wrapper for the remaining child views-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Node.js express mongoDB CRUD</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="bg-info">
+    <div class="row">
+        <div class="col-md-6 offset-md-3" style="background-color: #fff; margin-top: 25px; padding: 20px;">
+            {{{body}}}
+        </div>
+    </div>
+
+
+    <!-- body is variable name, Since this is the main layout view for the application child view HTML should be rendered inside the body tag-->
+    <!-- In order to render them as a HTML we need to use 3 pair of curly braces because inside this body variable 
+    we will the HTML string from the child views -->
+</body>
+
+</html>
